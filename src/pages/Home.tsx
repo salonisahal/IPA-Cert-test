@@ -5,7 +5,6 @@ import CategoryCard from '../components/CategoryCard'
 import ProductCard from '../components/ProductCard'
 import SectionHeader from '../components/SectionHeader'
 import TestimonialCard from '../components/TestimonialCard'
-import Footer from '../components/Footer'
 import Button from '../components/Button'
 import { readStorage } from '../utils/storage'
 
@@ -150,7 +149,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <Footer />
     </div>
   )
 }
